@@ -8,3 +8,5 @@ This is just a quick application that tracks the main window title and app in us
   This is the executable version with the python interpreter attached.  Press windows+r and type shell:startup.  Place a shortcut to the location of TimeLogger.exe in the startup folder and it'll run on startup.  If you want to close the app, just press exit on the print window.
 
 **Logs** are stored in your computers documents folder under "Weewon's Time Logs" as a JSON.  This JSON might get large and increase the computation time after a month or so, maybe delete it now and then.
+
+**July 23, 2023**  I thought anyone running this would consider this obvious, but convert the datetime to your local timezone when using the JSON.
